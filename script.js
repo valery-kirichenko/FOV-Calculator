@@ -109,7 +109,7 @@ $(document).ready(function() {
 		range: false,
 		value: 27,
 		min: 20,
-		max: 80,
+		max: 90,
 		create: function() {
 			screensizeHandle.text($(this).slider("value") + '\'\'');
 			$("#screensize").val($(this).slider("value"));
@@ -125,7 +125,7 @@ $(document).ready(function() {
 		range: false,
 		value: 50,
 		min: 30,
-		max: 200,
+		max: 400,
 		step: 1,
 		create: function() {
 			distanceHandle.text($(this).slider("value"));
